@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bel Persona Linktree</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="bgSound" src="SunWuBel.mp3"></audio>
+
+  <div class="container">
+    <h2> Bel Persona Finder</h2>
+
+    <input type="text" id="nama" placeholder="Nama">
+    <input type="text" id="hobi" placeholder="Hobi Utama">
+    <input type="number" id="angka" placeholder="Angka (1-10)" min="1" max="10">
+
+    <button onclick="generatePersona()">Temukan Persona</button>
+
+    <div class="result" id="result">
+      Hasil akan muncul di sini
+    </div>
+  </div>
+
+  <div class="container profile">
+    <img src="profilbel.jpg" alt="profile">
+    <h2 id="profileName">M . Abel Cakrawangsa</h2>
+
+    <a href="https://github.com/abelcakra" class="link">GitHub</a>
+    <a href="https://www.tiktok.com/@lil.ckra?lang=en" class="link">Tiktok</a>
+    <a href="https://www.roblox.com/users/2696770942/profile" class="link">Roblox</a>
+    <a href="https://www.instagram.com/a.cakrawgs" class="link">Instagram</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
