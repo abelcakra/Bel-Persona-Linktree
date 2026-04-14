@@ -6,14 +6,16 @@
   <title>Bel Persona Linktree</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
 
   <audio id="bgSound" src="SunWuBel.mp3"></audio>
 
   <div class="container">
-    <h2> Bel Persona Finder</h2>
+    <h2>Bel Persona Finder</h2>
 
     <input type="text" id="nama" placeholder="Nama">
     <input type="text" id="hobi" placeholder="Hobi Utama">
@@ -24,6 +26,8 @@
     <div class="result" id="result">
       Hasil akan muncul di sini
     </div>
+
+    <button onclick="downloadPDF()">Download PDF</button>
   </div>
 
   <div class="container profile">
